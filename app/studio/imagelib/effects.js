@@ -201,7 +201,7 @@ function renderCastShadow_(ctx, w, h) {
   tmpCtx.fillStyle = '#000';
   tmpCtx.fillRect(0, 0, w, h);
   let gradient = tmpCtx.createLinearGradient(0, 0, w, h);
-  gradient.addColorStop(0, 'rgba(0, 0, 0, .2)');
+  gradient.addColorStop(0, 'rgba(0, 0, 0, .6)');
   gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
   tmpCtx.fillStyle = gradient;
   tmpCtx.fillRect(0, 0, w, h);
